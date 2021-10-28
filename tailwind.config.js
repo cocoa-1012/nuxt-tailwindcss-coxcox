@@ -8,7 +8,12 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "main-texture": "url('/images/Mask Group 1@4X.png')",
+        "signup-texture": "url('/assets/images/signup-back.png')",
+      },
+    },
   },
   variants: {
     extend: {},
